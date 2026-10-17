@@ -1,0 +1,24 @@
+{
+  "name": "Charcha Social",
+  "short_name": "Charcha",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1d9bf0",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "share_target": {
+    "action": "/?shared=true",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
